@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+
     public void detection(View view) {
         Intent intent = new Intent(this, DetectionActivity.class);
         startActivity(intent);

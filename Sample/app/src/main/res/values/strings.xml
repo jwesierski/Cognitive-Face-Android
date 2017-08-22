@@ -7,9 +7,6 @@
     <string name="endpoint">https://westcentralus.api.cognitive.microsoft.com/face/v1.0</string>
 
 
-
-
-    
     <!-- Main activity -->
     <string name="detection">Detection</string>
     <string name="face_verification">Face to Face Verification</string>
@@ -110,4 +107,12 @@
     <string name="user_provided_person_group_name">Person group name</string>
     <string name="user_provided_person_group_description_data">User data</string>
 
+    <!-- Authorization -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="title_login">Login</string>
+    <string name="title_register">Register</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

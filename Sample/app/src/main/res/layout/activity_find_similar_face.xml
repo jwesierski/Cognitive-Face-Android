@@ -81,6 +81,7 @@
                 android:layout_marginEnd="@dimen/view_margin" >
 
                 <TextView
+                    android:id="@+id/test"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
@@ -89,15 +90,16 @@
                     android:text="@string/target_face" />
 
                 <Button
+                    android:layout_below="@id/test"
                     android:id="@id/select_image"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
                     android:text="@string/select_image"
                     android:onClick="selectImage"
-                    style="@style/ButtonStyle" />
+                    style="@style/ButtonStyle"
+
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
 
             </RelativeLayout>
 
