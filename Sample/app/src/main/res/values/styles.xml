@@ -12,4 +12,23 @@
         <item name="android:textColor">#ffffff</item>
     </style>
 
+    <style name="EditTextPasswordStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:hint">@string/hint_password</item>
+    </style>
+
+    <style name="EditTextEmailStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:hint">@string/hint_email</item>
+    </style>
+
+    <style name="EditTextCommon">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
 </resources>
