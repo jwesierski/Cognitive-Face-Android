@@ -20,6 +20,7 @@ public class AuthorizationActivity extends AppCompatActivity implements LoginFra
 
     @Override
     public void onRegisterClick() {
+        replaceFragment(new RegisterFragment(),true);
 
     }
 

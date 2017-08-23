@@ -26,4 +26,9 @@
         <item name="android:hint">@string/hint_email</item>
     </style>
 
+    <style name="EditTextCommon">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
 </resources>
