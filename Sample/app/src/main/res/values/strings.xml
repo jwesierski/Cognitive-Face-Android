@@ -22,7 +22,7 @@
     <string name="identification_description">Identify the person from a face.</string>
 
     <!-- Tips to get subscription key shown on main activity-->
-    <string name="app_name">Microsoft Cognitive Services Face</string>
+    <string name="app_name">Identifi</string>
     <string name="add_subscription_key_tip_title">c553515f57c04f819d2e07b61139762d</string>
     <string name="add_subscription_key_tip">c553515f57c04f819d2e07b61139762d</string>
 
@@ -109,10 +109,19 @@
 
     <!-- Authorization -->
     <string name="hint_email">Email</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_dob">Date of Birth</string>
     <string name="hint_password">Password</string>
     <string name="title_login">Login</string>
     <string name="title_register">Register</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!---Fujck-->
+    <string name= "before_pictures">First we will need to a few photos. Don’t worry,
+        these pictures will not be seen by anyone, they are simply to allow you to be
+        identified most efficiently!</string>
+
 </resources>
