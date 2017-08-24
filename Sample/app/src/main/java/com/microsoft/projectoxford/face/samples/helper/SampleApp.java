@@ -41,6 +41,7 @@ import com.microsoft.projectoxford.face.samples.R;
 public class SampleApp extends Application {
     @Override
     public void onCreate() {
+
         super.onCreate();
         sFaceServiceClient = new FaceServiceRestClient(getString(R.string.endpoint), getString(R.string.subscription_key));
     }
@@ -50,4 +51,5 @@ public class SampleApp extends Application {
     }
 
     private static FaceServiceClient sFaceServiceClient;
+
 }
