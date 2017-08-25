@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.microsoft.projectoxford.face.samples.ui.auth.AuthorizationActivity">
+    tools:context="com.microsoft.projectoxford.face.api.com.microsoft.projectoxford.recognition.api.ui.auth.AuthorizationActivity">
 
 </FrameLayout>
