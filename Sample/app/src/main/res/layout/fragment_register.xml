@@ -2,62 +2,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.auth.RegisterFragment"
-    android:background="@drawable/register_background_color">
-<!--here just Email and Password-->
+    tools:context=".ui.auth.RegisterFragment">
+
     <EditText style="@style/EditTextCommon"
         android:id="@+id/et_first_name"
-        android:hint="@string/hint_first_name"
-        android:textStyle="bold"
-        android:textColor=""/>
+        android:hint="@string/hint_first_name"/>
 
     <EditText style="@style/EditTextCommon"
         android:id="@+id/et_last_name"
         android:hint="@string/hint_last_name"
-        android:layout_below="@id/et_first_name"
-        android:textStyle="bold"
-        android:textColor="#000000"/>
+        android:layout_below="@id/et_first_name"/>
+
+    <EditText style="@style/EditTextCommon"
+        android:id="@+id/et_dob"
+        android:hint="@string/hint_dob"
+        android:layout_below="@id/et_last_name"/>
 
     <EditText style="@style/EditTextEmailStyle"
         android:id="@+id/et_email"
-        android:layout_below="@+id/et_last_name"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="13dp"
-        android:layout_marginEnd="13dp"
-        android:textStyle="bold"
-        android:textColor="#000000"/>
+        android:layout_below="@id/et_dob"/>
 
-    <EditText
+    <EditText style="@style/EditTextPasswordStyle"
         android:id="@+id/et_password"
-        style="@style/EditTextPasswordStyle"
-        android:layout_below="@id/et_email"
-        android:textAllCaps="true"
-        android:textColor="#000000"
-        android:textColorLink="#000"
-        android:textStyle="bold" />
-    <EditText
-        android:id="@+id/editText3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/gender"
-        android:text_color="#000"
-        android:textStyle="bold"
-        android:layout_below="@+id/et_password"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
+        android:layout_below="@id/et_email"/>
 
     <Button
         android:id="@+id/btn_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/title_register"
-        android:layout_below="@+id/editText3"
-        android:layout_centerHorizontal="true" />
-
+        android:layout_below="@+id/et_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="@string/title_register" />
 
 
 </RelativeLayout>
