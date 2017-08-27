@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/background_color">
+    android:background="@drawable/login_background_color">
+    <!--We need a title font-->
 
     <TextView
         android:id="@+id/textView"
