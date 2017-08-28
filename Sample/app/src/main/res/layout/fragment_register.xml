@@ -2,11 +2,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.auth.RegisterFragment">
+    tools:context=".ui.auth.RegisterFragment"
+android:background="@drawable/register_background_color">
+<!--here just Email and Password-->
+
 
     <EditText style="@style/EditTextCommon"
         android:id="@+id/et_first_name"
-        android:hint="@string/hint_first_name"/>
+        android:hint="@string/hint_first_name" />
 
     <EditText style="@style/EditTextCommon"
         android:id="@+id/et_last_name"

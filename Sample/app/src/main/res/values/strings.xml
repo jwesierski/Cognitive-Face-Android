@@ -119,6 +119,12 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <!---Fujck-->
-    <string name= "before_pictures"></string>
+     <!---JM registration text-->
+    <string name= "before_pictures">First we will need to a few photos. Don\'t worry,
+        these pictures will not be seen by anyone, they are simply to allow you to be
+        identified most efficiently!</string>
+    <string name = "app_title">Identifi</string>
+    <string name = "fragmentEsText">Now we will need some information about who you are.</string>
+    <string name="user_name">User Name</string>
+    <string name = "gender">Gender</string>
 </resources>
