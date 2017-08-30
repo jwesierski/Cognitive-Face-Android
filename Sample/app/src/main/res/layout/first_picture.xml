@@ -9,13 +9,12 @@
     android:background="@drawable/login_background_color">
 
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/before_pictures"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/before_pictures"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,13 +23,15 @@
         android:gravity="center|bottom"
         android:orientation="vertical"
         android:weightSum="1">
-
+<!-- on take pressing the button make it save your picture to your personal file-->
         <Button
             android:id="@+id/button1"
             style="?android:attr/buttonStyleSmall"
-            android:layout_width="145dp"
+            android:layout_width="175dp"
             android:layout_height="wrap_content"
+            android:onClick="takePhoto"
             android:layout_gravity="center_horizontal|right"
-            android:text="Take Picture" />
+            android:text="Take First Picture" />
     </LinearLayout>
+
 </LinearLayout>
