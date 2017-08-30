@@ -127,4 +127,7 @@
     <string name = "fragmentEsText">Now we will need some information about who you are.</string>
     <string name="user_name">User Name</string>
     <string name = "gender">Gender</string>
+    <string name = "google_maps_key">AIzaSyCfANJEurpvZRzhT-4La4F6DMc5u2eXGT0</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_chat_with_friends">Chat with friends</string>
 </resources>

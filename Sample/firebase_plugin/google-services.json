@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "179547425073",
+    "firebase_url": "https://facerecognitionchat-df0aa.firebaseio.com",
+    "project_id": "facerecognitionchat-df0aa",
+    "storage_bucket": "facerecognitionchat-df0aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179547425073:android:2394731287b448f7",
+        "android_client_info": {
+          "package_name": "com.cognitive.face.recognition.api"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179547425073-8s1ec7lc6fsqvmjhsrfs50rb21963t2p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn0dFbUOEnicPRbapwR_bn5r3-YOeqADw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179547425073:android:55b96633bb34c794",
+        "android_client_info": {
+          "package_name": "com.braunster.androidchatsdk.firebaseplugin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179547425073-8s1ec7lc6fsqvmjhsrfs50rb21963t2p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn0dFbUOEnicPRbapwR_bn5r3-YOeqADw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

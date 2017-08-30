@@ -323,7 +323,7 @@ public class PersonActivity extends AppCompatActivity {
             doneAndSave();
         }
     }
-//this adds a face to a group
+
     public void addFace(View view) {
         if (personId == null) {
             new AddPersonTask(true).execute(personGroupId);

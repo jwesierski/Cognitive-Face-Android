@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/nellipc/Cognitive-Face-Android/Sample/facebook/src/main/assets"/><source path="/Users/nellipc/Cognitive-Face-Android/Sample/facebook/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/nellipc/Cognitive-Face-Android/Sample/facebook/src/debug/assets"/></dataSet></merger>

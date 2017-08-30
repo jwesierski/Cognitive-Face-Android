@@ -34,6 +34,13 @@ dependencies {
     compile 'com.google.firebase:firebase-core:11.2.0'
     compile 'com.google.firebase:firebase-database:11.2.0'
     compile 'com.google.firebase:firebase-auth:11.2.0'
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:design:25.4.0'
+    compile project(':firebase_plugin')
+    testCompile 'junit:junit:4.12'
+    compile 'com.google.android.gms:play-services-maps:11.2.0'
 }
 
 apply plugin: 'com.google.gms.google-services'
