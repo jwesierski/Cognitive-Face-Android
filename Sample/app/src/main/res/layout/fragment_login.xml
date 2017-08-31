@@ -52,5 +52,6 @@ android:background="@drawable/login_background_color">
 
         android:text="@string/title_register" />
   </LinearLayout>
+  <!--implement login with google, facebook, and -->
 
 </LinearLayout>
