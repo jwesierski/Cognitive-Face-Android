@@ -5,41 +5,52 @@
     android:orientation="vertical"
 android:background="@drawable/login_background_color">
     <!--We need a title font-->
-  <TextView
-        android:id="@+id/textView"
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:text="@string/app_title"
-        android:textSize="45dp"
-        android:fontFamily=""/>
 
-    <EditText style="@style/EditTextEmailStyle"
-        android:id="@+id/et_email"/>
-    <Space
+  <EditText
+      android:id="@+id/et_email"
+      style="@style/EditTextEmailStyle" />
+
+  <EditText
+      android:id="@+id/et_password"
+      style="@style/EditTextPasswordStyle" />
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:fontFamily="monospace"
+      android:gravity="center"
+      android:text="@string/app_title"
+      android:textSize="45dp" />
+
+  <Space
         android:layout_width="match_parent"
         android:layout_height="20dp" />
 
-    <EditText style="@style/EditTextPasswordStyle"
-        android:id="@+id/et_password"/>
+
+  <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_gravity="center">
 
     <Button
         android:id="@+id/btn_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:gravity="center"
         android:text="@string/title_login" />
-
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="10dp" />
-
 
     <Button
         android:id="@+id/btn_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:gravity="center"
+
         android:text="@string/title_register" />
+  </LinearLayout>
+
 </LinearLayout>
