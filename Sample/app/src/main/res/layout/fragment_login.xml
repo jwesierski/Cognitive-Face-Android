@@ -3,55 +3,55 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-android:background="@drawable/login_background_color">
+    android:background="@drawable/login_background_color">
     <!--We need a title font-->
 
-  <EditText
-      android:id="@+id/et_email"
-      style="@style/EditTextEmailStyle" />
+    <EditText
+        android:id="@+id/et_email"
+        style="@style/EditTextEmailStyle" />
 
-  <EditText
-      android:id="@+id/et_password"
-      style="@style/EditTextPasswordStyle" />
+    <EditText
+        android:id="@+id/et_password"
+        style="@style/EditTextPasswordStyle" />
 
-  <TextView
-      android:id="@+id/textView"
-      android:layout_width="match_parent"
-      android:layout_height="100dp"
-      android:fontFamily="monospace"
-      android:gravity="center"
-      android:text="@string/app_title"
-      android:textSize="45dp" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/app_title"
+        android:textSize="45dp" />
 
-  <Space
+    <Space
         android:layout_width="match_parent"
         android:layout_height="20dp" />
 
 
-  <Space
+    <Space
         android:layout_width="match_parent"
         android:layout_height="10dp" />
-  <LinearLayout
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:orientation="horizontal"
-      android:layout_gravity="center">
-
-    <Button
-        android:id="@+id/btn_login"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/title_login" />
+        android:orientation="horizontal"
+        android:layout_gravity="center">
 
-    <Button
-        android:id="@+id/btn_register"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/title_login" />
 
-        android:text="@string/title_register" />
-  </LinearLayout>
-  <!--implement login with google, facebook, and -->
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:text="@string/title_register" />
+    </LinearLayout>
+    <!--implement login with google, facebook, and -->
 
 </LinearLayout>
